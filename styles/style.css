@@ -1,0 +1,125 @@
+html {
+  font-size: 100%;
+  background-color: #fff;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #7adab1;
+  font-family: arial, sans-serif;
+}
+header {
+  height: 6em;
+  background-color: #a97ada;
+  color: #fff;
+  font-size: .5rem;
+  text-transform: uppercase;
+}
+header img{
+height: 100%;
+}
+nav ul{
+  list-style-type: none;
+}
+nav ul li{
+  background-color: #5f1d58;
+  border: 1px solid #5f1d58;
+  padding: 1em 4em 1em 4em;
+  font-weight: bold;
+}
+nav ul li a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li a:hover{
+color: #fff;
+text-transform: uppercase;
+text-decoration: none;
+}
+nav ul li:nth-child(1){
+  border: 1px solid #14065d;
+  padding: 1em 4em 1em 4em;
+  font-weight: bold;
+}
+nav ul li:nth-child(1) a{
+  color: #fff;
+}
+nav ul li a:nth-child(1) a:hover{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li:nth-child(2){
+  background-color: #14065d;
+  border: 1px solid #14065d;
+  padding: 1em 4em 1em 4em;
+  font-weight: bold;
+}
+nav ul li:nth-child(2) a{
+  color: #fff;
+}
+nav ul li a:nth-child(2) a:hover{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li:nth-child(3){
+  background-color: #f33e09;
+  border: 1px solid #f33e09;
+  padding: 1em 4em 1em 4em;
+  font-weight: bold;
+}
+nav ul li:nth-child(3) a{
+  color: #fff;
+}
+nav ul li a:nth-child(3) a:hover{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li:nth-child(4){
+  background-color: #038e7f;
+  border: 1px solid #14065d;
+  padding: 1em 4em 1em 4em;
+  font-weight: bold;
+}
+nav ul li:nth-child(4) a{
+  color: #fff;
+}
+nav ul li a:nth-child(4) a:hover{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.wrapper{
+  background-color: #67d50c;
+  margin: 0 2em 0 2em;
+}
+#main_article{
+  padding: 0 1em 0 1em;
+  color: #000;
+}
+article h2{
+  text-align: center;
+background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+}
+figure{
+  padding: 1em 1em 0 1em;
+}
+figure img{
+  text-align: center;
+  width: 25%;
+  height: 25%;
+  border-radius: 50px;
+}
+figcaption{
+  text-align: left;
+  font-family: arial, sans-serif;
+  font-size: 0.75rem;
+}
+footer{
+  background-color: #a97ada;
+  color: #fff;
+  padding: 0em 0 0 2em;
+}
