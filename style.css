@@ -36,7 +36,7 @@ nav ul{
 nav ul li{
   background-color: #008080ff;
   border: 1px solid #008080ff;
-  padding: 1em 4em 1em 4em;
+  padding: 1rem 4rem 1rem 4rem;
   font-weight: bold;
 }
 nav ul li a{
@@ -51,7 +51,7 @@ text-decoration: none;
 }
 nav ul li:nth-child(1){
   border: 1px solid #008080ff;
-  padding: 1em 4em 1em 4em;
+  padding: 1rem 4rem 1rem 4rem;
   font-weight: bold;
 }
 nav ul li:nth-child(1) a{
@@ -66,7 +66,7 @@ nav ul li a:nth-child(1) a:hover{
 nav ul li:nth-child(2){
   background-color: #008080ff;
   border: 1px solid #008080ff;
-  padding: 1em 4em 1em 4em;
+  padding: 1rem 4rem 1rem 4rem;
   font-weight: bold;
 }
 nav ul li:nth-child(2) a{
@@ -81,7 +81,7 @@ nav ul li a:nth-child(2) a:hover{
 nav ul li:nth-child(3){
   background-color: #008080ff;
   border: 1px solid #008080ff;
-  padding: 1em 4em 1em 4em;
+  padding: 1rem 4rem 1rem 4rem;
   font-weight: bold;
 }
 nav ul li:nth-child(3) a{
@@ -96,7 +96,7 @@ nav ul li a:nth-child(3) a:hover{
 nav ul li:nth-child(4){
   background-color: #008080ff;
   border: 1px solid #008080ff;
-  padding: 1em 4em 1em 4em;
+  padding: 1rem 4rem 1rem 4rem;
   font-weight: bold;
 }
 nav ul li:nth-child(4) a{
@@ -109,7 +109,7 @@ nav ul li a:nth-child(4) a:hover{
 }
 .wrapper{
   background-color: #67d50c;
-  margin: 0 2em 0 2em;
+  margin: 0 2rem 0 2rem;
 }
 #primary {
   display: grid;
@@ -117,7 +117,7 @@ nav ul li a:nth-child(4) a:hover{
   padding: 0 0 1rem 2rem;
  }
 #main_article{
-  padding: 0 1em 0 1em;
+  padding: 0 1rem 0 1rem;
   color: #000;
 }
 article h1{
@@ -132,7 +132,7 @@ background: linear-gradient(to right, white, grey);
 }
 
 figure{
-  padding: 1em 1em 0 1em;
+  padding: 1rem 1rem 0 1rem;
 }
 figure img{
   text-align: center;
