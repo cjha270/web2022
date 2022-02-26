@@ -1,4 +1,4 @@
-html {
+thtml {
   font-size: 100%;
   background-color: #fff;
 }
@@ -30,7 +30,7 @@ nav {
 nav ul{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justify-items: left;
+  justify-items: center;
   list-style-type: none;
 }
 nav ul li{
