@@ -121,7 +121,7 @@ nav ul li a:nth-child(4) a:hover{
   color: #000;
 }
 article h1{
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   background: linear-gradient(to right, white, grey);
 }
