@@ -33,8 +33,11 @@
         secret apple pie recipe, we aim to put a smile on your face.</p>
       </article>
     <figure id="main_fig"> 
-    <img src="image1.png" width="300" height="100"
-          alt="Picture of cookie."
+    <img srcset="image1.png" width="300" height="100",
+                 image1.png width="150" height="50"
+         sizes="(max-width: 300px) 150px, 300px"
+         src="image1.png"
+         alt="Picture of cookie."
           title="Picture of cookie.">
      <img src="image2.png" width="300" height="100"
           alt="Picture of brownie."
