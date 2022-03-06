@@ -105,6 +105,8 @@ article h1{
 background: linear-gradient(black
 }
 figure{
+  display: inline-block;
+  margin: 35px;
   padding: 1em 1em 0 1em;
 }
 figure img{
