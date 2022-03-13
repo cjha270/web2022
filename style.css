@@ -112,6 +112,7 @@ figure{
   padding: 1em 1em 0 1em;
 }
 figure img{
+  padding: 50px 50px;
   align: center;
   width: 25%;
   height: 25%;
