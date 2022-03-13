@@ -118,11 +118,16 @@ figure img{
 figcaption{
   text-align: left;
   font-family: arial, sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.75em;
 }
 footer{
   display: grid;
   background-color: #f62459ff;
   color: #fff;
   padding: 0em 0 0 2em;
+}
+table{
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
 }
