@@ -138,5 +138,6 @@ thead, tfoot {
   font-weight: bold;
   }
 th, td {
-  padding: 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
