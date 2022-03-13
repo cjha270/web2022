@@ -131,8 +131,7 @@ footer{
   text-transform: uppercase;
   display: grid;
   padding: 0em 0 0 2em;
-  border:1px solid black;margin-left:auto;margin-right:auto;
-}
+ }
 table{
  border:1px solid black;margin-left:auto;margin-right:auto;
 }
@@ -142,6 +141,6 @@ thead, tfoot {
   font-weight: bold;
   }
 th, td {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px;
+  text-align: center;
 }
