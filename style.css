@@ -19,6 +19,7 @@ header {
   text-transform: uppercase;
 }
 header img{
+float: right;
 height: 25%;
 width: 45%;
 }
@@ -112,6 +113,7 @@ figure{
   padding: 1em 1em 0 1em;
 }
 figure img{
+  float: left right;
   padding: 50px 50px;
   align: center;
   width: 25%;
