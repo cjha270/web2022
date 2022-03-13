@@ -132,8 +132,11 @@ footer{
   display: grid;
   padding: 0em 0 0 2em;
 }
-table{
-  text-align: center;
-  font-family: arial;
-  font-size: 20px;
+thead, tfoot {
+  background-color: #f62459ff
+  color: white;
+  font-weight: bold;
+  }
+th, td {
+  padding: 10px 10px;
 }
