@@ -110,7 +110,7 @@ figure{
   padding: 1em 1em 0 1em;
 }
 figure img{
-  text-align: center;
+  align: center;
   width: 25%;
   height: 25%;
   border-radius: 20px;
@@ -133,7 +133,7 @@ footer{
   padding: 0em 0 0 2em;
  }
 table{
- border:1px solid black;margin-left:auto;margin-right:auto;
+ align: center; 
 }
 thead, tfoot {
   background-color: #f62459ff
