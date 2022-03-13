@@ -39,6 +39,8 @@ nav ul li{
   font-weight: bold;
 }
 nav ul li a{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
