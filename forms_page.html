@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
 	<title>Let us know how we are doing!</title>
+	  	<style>
+		
+	.basic-form {
+		color: #141414;
+		font-weight: bold;
+	 }
+	.rating {
+		font-weight: bold;
+			}
+	textarea {
+		font-weight: bold;
+		}
+		
+	.button {
+	border: 5px solid #141414;
+	background-color: #ebebeb;
+	color: #cc1629;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	font-size: 1rem;
+	}
+		
+	</stlye>
 	
 </head>
 	
 <body>
 	<h1> Let us know how we did! </h1>
 	
-	<form action="scripts/action1.php" method="post" class="user-details">
+	<form action="scripts/action1.php" method="post" class="basic-form">
 		<label for="fname"> First Name: </label>
 		<input type="text" name="fname" id="fname" required>
 		<br>
@@ -20,6 +43,7 @@
 		<label for="email"> Email: </label>
 		<input type="text" name="email" id="email" required>
 		<br>
+	</form>
 	
 	<h2>My favorite weets!</h2>
 	<label for="favsweets> Favorite Sweets: </label>
@@ -34,7 +58,8 @@
 		<br>
 		
 		<h3>Rate Me</h3>
-		
+	
+	<form action="scripts/action.php" method="get" class="rating">
 	<fieldset>
 		<legend> How would you rate our sweets? </legend>
 		<input type="radio" name="one" id="one">
@@ -50,7 +75,8 @@
 		</fieldset>
 		<br>
 		
-		Label for="suggestions"> How can we keep meeting your needs or how can we improve to meet your needs?</label></br>
+		
+		<Label for="suggestions"> How can we keep meeting your needs or how can we improve to meet your needs?</label></br>
 		<text area name="suggestions" id="suggestions" rows="10" cols="50"></textarea>
 		<br>
 		
