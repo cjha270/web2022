@@ -7,11 +7,13 @@
 	<title>Let us know how we are doing!</title>
 	  	<style>
 		
-	.basic-form {
-		color: #141414;
+	.basic-form label {
 		font-weight: bold;
 	 }
-			
+	.rating label {
+		font-weight: bold;
+		}
+	
 	.button {
 	border: 5px solid #141414;
 	background-color: #ebebeb;
@@ -56,13 +58,11 @@
 		</fieldset>
 		<br>
 		
-		
-		<Label for="suggestions"> How can we keep meeting your needs or how can we improve to meet your needs?</label></br>
-		<text area name="suggestions" id="suggestions" rows="10" cols="50"></textarea>
-		<br>
+		<form action="scripts/action.php" method="post">
+          <textarea name="feedback" id="feedback" rows="5" cols="90"></textarea>
+          <br><br>
+        </form>
+
 		
 		<input type="submit" value="Submit" class="button">
 	</form>
-		
-  </body>
-</html>
