@@ -13,7 +13,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justfy-items: end;
   height: 6em;
-  background-color: #f62459ff;
+  background-color: #f62a24;
   color: #fff;
   font-size: .5rem;
   text-transform: uppercase;
@@ -94,7 +94,7 @@ nav ul li a:nth-child(3) a:hover{
 }
 
 .wrapper{
-  background-color: #67d50c;
+  background-color: #fefecb;
   margin: 0 2em 0 2em;
 }
 #main_article{
@@ -130,7 +130,7 @@ footer{
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justfy-items: end;
   height: 6em;
-  background-color: #f62459ff;
+  background-color: #f62a24;
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
@@ -141,7 +141,7 @@ table{
  align: center; 
 }
 thead, tfoot {
-  background-color: #f62459ff
+  background-color: #f62a24
   color: white;
   font-weight: bold;
   }
