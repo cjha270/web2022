@@ -34,8 +34,8 @@ nav ul{
   list-style-type: none;
 }
 nav ul li{
-  background-color: #008080ff;
-  border: 1px solid #008080ff;
+  background-color: #f0a90f;
+  border: 1px solid #f0a90f;
   padding: 1em 4em 1em 4em;
   font-weight: bold;
 }
@@ -52,7 +52,7 @@ text-transform: uppercase;
 text-decoration: none;
 }
 nav ul li:nth-child(1){
-  border: 1px solid #008080ff;
+  border: 1px solid #f0a90f;
   padding: 1em 4em 1em 4em;
   font-weight: bold;
 }
@@ -65,8 +65,8 @@ nav ul li a:nth-child(1) a:hover{
   text-decoration: none;
 }
 nav ul li:nth-child(2){
-  background-color: #008080ff;
-  border: 1px solid #008080ff;
+  background-color: #f0a90f;
+  border: 1px solid #f0a90f;
   padding: 1em 4em 1em 4em;
   font-weight: bold;
 }
@@ -79,8 +79,8 @@ nav ul li a:nth-child(2) a:hover{
   text-decoration: none;
 }
 nav ul li:nth-child(3){
-  background-color: #008080ff;
-  border: 1px solid #008080ff;
+  background-color: #f0a90f;
+  border: 1px solid #f0a90f;
   padding: 1em 4em 1em 4em;
   font-weight: bold;
 }
