@@ -1,15 +1,14 @@
 html {
   font-size: 100%;
-  background-color: #fa5105;
-}
+  }
 body {
   padding: 0;
   margin: 0;
-  background-color: #fa5105;
-  font-family: arial, sans-serif;
+  background-color: white;
+  font-family: Georgia, serif;
 }
 header {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justfy-items: end;
   height: 6em;
@@ -18,11 +17,7 @@ header {
   font-size: .5rem;
   text-transform: uppercase;
 }
-header img{
-float: right;
-height: 25%;
-width: 45%;
-}
+
 nav {
   padding: 1rem 0 1rem 0;
 }
@@ -102,10 +97,10 @@ nav ul li a:nth-child(3) a:hover{
   color: #000;
 }
 article h1{
-  color: white;
+  color: black;
   text-align: left;
   font-size: 20px;
-background: linear-gradient(black
+background: linear-gradient(white)
 }
 figure{
   display: inline-block;
