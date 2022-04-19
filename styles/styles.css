@@ -1,20 +1,20 @@
 html {
   font-size: 100%
-  background-color: fa5105;
+  background-color: #fa5105;
   }
 body {
   padding: 0;
   margin: 0;
-  background-color: f62a24;
+  background-color: #f62a24;
   font-family: Georgia, serif;
 }
 header {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy-items: center;
+  justfy-items: ends;
   height: 3em;
   background-color: #f62a24;
-  color: #black;
+  color: black;
   font-size: 2rem;
   text-transform: uppercase;
 }
@@ -35,12 +35,12 @@ nav ul li{
 nav ul li a{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  color: #black;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
 }
 nav ul li a:hover{
-color: #black;
+color: black;
 text-transform: uppercase;
 text-decoration: none;
 }
@@ -50,10 +50,10 @@ nav ul li:nth-child(1){
   font-weight: bold;
 }
 nav ul li:nth-child(1) a{
-  color: #black;
+  color: black;
 }
 nav ul li a:nth-child(1) a:hover{
-  color: #black;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -64,10 +64,10 @@ nav ul li:nth-child(2){
   font-weight: bold;
 }
 nav ul li:nth-child(2) a{
-  color: #black;
+  color: black;
 }
 nav ul li a:nth-child(2) a:hover{
-  color: #black;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -78,10 +78,10 @@ nav ul li:nth-child(3){
   font-weight: bold;
 }
 nav ul li:nth-child(3) a{
-  color: #black;
+  color: black;
 }
 nav ul li a:nth-child(3) a:hover{
-  color: #black;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
 }
