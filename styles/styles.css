@@ -11,7 +11,6 @@ body {
 header {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy-content: flex-end;
   height: 3em;
   background-color: #f62a24;
   color: black;
