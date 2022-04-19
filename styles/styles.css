@@ -18,8 +18,6 @@ header {
   font-size: 2rem;
   text-transform: uppercase;
 }
-
-}
 nav ul{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1f));
