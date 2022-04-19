@@ -119,7 +119,7 @@ figcaption{
 footer{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy-content: center;
+  text-align: center;
   height: 12em;
   background-color: #f62a24;
   color: black;
