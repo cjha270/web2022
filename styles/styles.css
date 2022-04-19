@@ -1,5 +1,5 @@
 html {
-  font-size: 100%
+  font-size: 100%;
   background-color: #fa5105;
   }
 body {
@@ -20,7 +20,7 @@ header {
 }
 nav ul{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1f));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justify-items: left;
   list-style-type: none;
 }
