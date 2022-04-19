@@ -13,7 +13,7 @@ header {
   justfy-items: end;
   height: 6em;
   background-color: #f62a24;
-  color: #fff;
+  color: #black;
   font-size: .5rem;
   text-transform: uppercase;
 }
@@ -37,12 +37,12 @@ nav ul li{
 nav ul li a{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  color: #fff;
+  color: #black;
   text-transform: uppercase;
   text-decoration: none;
 }
 nav ul li a:hover{
-color: #fff;
+color: #black;
 text-transform: uppercase;
 text-decoration: none;
 }
@@ -52,10 +52,10 @@ nav ul li:nth-child(1){
   font-weight: bold;
 }
 nav ul li:nth-child(1) a{
-  color: #fff;
+  color: #black;
 }
 nav ul li a:nth-child(1) a:hover{
-  color: #fff;
+  color: #black;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -66,10 +66,10 @@ nav ul li:nth-child(2){
   font-weight: bold;
 }
 nav ul li:nth-child(2) a{
-  color: #fff;
+  color: #black;
 }
 nav ul li a:nth-child(2) a:hover{
-  color: #fff;
+  color: #black;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -80,10 +80,10 @@ nav ul li:nth-child(3){
   font-weight: bold;
 }
 nav ul li:nth-child(3) a{
-  color: #fff;
+  color: #black;
 }
 nav ul li a:nth-child(3) a:hover{
-  color: #fff;
+  color: #black;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -126,7 +126,7 @@ footer{
   justfy-items: end;
   height: 6em;
   background-color: #f62a24;
-  color: #fff;
+  color: #black;
   font-size: 12px;
   text-transform: uppercase;
   display: grid;
@@ -137,7 +137,7 @@ table{
 }
 thead, tfoot {
   background-color: #f62a24
-  color: white;
+  color: black;
   font-weight: bold;
   }
 th, td {
