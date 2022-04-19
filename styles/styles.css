@@ -11,11 +11,11 @@ body {
 header {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy-items: end;
-  height: 14em;
+  justfy-items: center;
+  height: 8em;
   background-color: #f62a24;
   color: #black;
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
