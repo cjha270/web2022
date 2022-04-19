@@ -3,8 +3,8 @@ html {
   background-color: fa5105;
   }
 body {
-  padding: 0;
-  margin: 0;
+  padding: 1;
+  margin: 1;
   background-color: f62a24;
   font-family: Georgia, serif;
 }
@@ -12,10 +12,10 @@ header {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justfy-items: end;
-  height: 6em;
+  height: 14em;
   background-color: #f62a24;
   color: #black;
-  font-size: .5rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
