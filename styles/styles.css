@@ -127,7 +127,7 @@ footer{
   padding: 0em 0 0 2em;
  }
 table{
- align: center; 
+ text-align: center; 
 }
 thead, tfoot {
   background-color: #f62a24;
