@@ -11,7 +11,7 @@ body {
 header {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy-items: center text;
+  justfy-items: end;
   height: 3em;
   background-color: #f62a24;
   color: black;
@@ -103,9 +103,9 @@ figure{
   padding: 1em 1em 0 1em;
 }
 figure img{
-  float: left right;
+  float: right;
   padding: 50px 50px;
-  align: ends;
+  align: end;
   width: 25%;
   height: 25%;
   border-radius: 20px;
@@ -118,7 +118,7 @@ figcaption{
 footer{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  justfy-items: center text;
+  justfy-items: center;
   height: 12em;
   background-color: #f62a24;
   color: black;
