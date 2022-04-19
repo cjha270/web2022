@@ -1,5 +1,6 @@
 html {
-  font-size: 100%;
+  font-size: 100%
+  background-color: fa5105;
   }
 body {
   padding: 0;
@@ -124,7 +125,7 @@ footer{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justfy-items: end;
-  height: 6em;
+  height: 12em;
   background-color: #f62a24;
   color: #black;
   font-size: 12px;
