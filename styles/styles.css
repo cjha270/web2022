@@ -12,7 +12,7 @@ header {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   justfy-items: center;
-  height: 8em;
+  height: 3em;
   background-color: #f62a24;
   color: #black;
   font-size: 2rem;
